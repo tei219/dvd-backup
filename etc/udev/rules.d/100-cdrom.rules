@@ -1,0 +1,1 @@
+ACTION!="remove", KERNEL=="sr0", SUBSYSTEM=="block", RUN="/bin/systemctl --no-block start backup-dvd.service"
