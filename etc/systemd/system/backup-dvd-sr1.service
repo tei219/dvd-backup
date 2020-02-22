@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup DVD
+
+[Service]
+Type=simple
+ExecStart=/root/dvd-backup/dvd-backup.sh sr1

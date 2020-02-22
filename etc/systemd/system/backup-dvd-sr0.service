@@ -3,4 +3,4 @@ Description=Backup DVD
 
 [Service]
 Type=simple
-ExecStart=/root/dvd-backup/dvd-backup.sh udf
+ExecStart=/root/dvd-backup/dvd-backup.sh sr0
